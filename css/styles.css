@@ -1,9 +1,10 @@
 body {
     color: #8f8f8f;
     font: 12px Tahoma, sans-serif;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     border-top: 5px solid #7e7e7e;
     margin: 0;
+    background: white;
 }
 
 img {
@@ -24,22 +25,13 @@ button {
     background-color: #29c5e6;
     border: none;
     height: 32px;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
 }
 
 nav {
     background: #f3f3f3;
     background: black;
     border: 1px solid #e7e7e7;
-}
-
-h1 {
-    display: inline-block;
-    color: #7e7e7e;
-    font: 40px/40px 'Oswald', sans-serif;
-    background: url(../images/bg.png);
-    margin: 0;
-    padding: 0 10px;
 }
 
 #wrapper {
@@ -53,33 +45,9 @@ header {
     padding: 20px 0;
 }
 
-aside {
-    float: left;
-    width: 250px;
-}
-
-aside>h2 {
-    background: #29c5e6;
-    font: 14px 'Oswald', sans-serif;
-    color: #fff;
-    padding: 10px;
-    margin: 30px 0 0 0;
-}
-
-aside>p {
-    background: #f3f3f3;
-    border: 1px solid #e7e7e7;
-    padding: 10px;
-    margin: 0;
-}
-
 section {
     margin-left: 280px;
     padding-bottom: 50px;
-}
-
-form[name="search"] {
-    float: right;
 }
 
 footer {
@@ -97,7 +65,7 @@ nav ul {
 
 nav li {
     list-style-position: inside;
-    font: 14px 'Oswald', sans-serif;
+    font: 14px "Oswald", sans-serif;
     padding: 10px;
 }
 
@@ -138,7 +106,7 @@ blockquote {
     margin: 0;
     background: #29c5e6;
     padding: 10px 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
 }
 
@@ -161,7 +129,7 @@ blockquote cite {
 figure {
     display: inline-block;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 300;
 }
 
@@ -207,46 +175,6 @@ figure figcaption span {
     margin-left: 43px;
 }
 
-footer {
-    background: black;
-    color: #dbdbdb;
-    font-size: 11px;
-}
-
-#footer {
-    max-width: 960px;
-    margin: auto;
-    padding: 10px 0;
-    height: 90px;
-}
-
-footer h3 {
-    color: #fff;
-    border-bottom: 1px solid #919191;
-    margin: 0 0 10px 0;
-}
-
-footer a {
-    color: #dbdbdb;
-}
-
-#twitter time a {
-    color: #b4aeae;
-}
-
-footer p {
-    margin: 5px 0;
-}
-
-#twitter {
-    float: left;
-    width: 300px;
-}
-
-#twitter p {
-    padding-right: 15px;
-}
-
 #sitemap {
     width: 150px;
     float: left;
@@ -273,71 +201,15 @@ footer p {
     text-decoration: underline;
 }
 
-#social {
-    float: left;
-    float: right;
-    margin-left: 20px;
-    width: 130px;
-}
-
-.social-icon {
-    width: 30px;
-    height: 30px;
-    background: url(../images/social.png) no-repeat;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.social-icon-small {
-    width: 16px;
-    height: 16px;
-    background: url(../images/social-small.png) no-repeat;
-    display: inline-block;
-    margin: 5px 6px 0 0;
-}
-
-.twitter {
-    background-position: 0 0;
-}
-
-.facebook {
-    background-position: -30px 0;
-}
-
-.google-plus {
-    background-position: -60px 0;
-}
-
-.vimeo {
-    background-position: 0 0;
-}
-
-.youtube {
-    background-position: -16px 0;
-}
-
-.flickr {
-    background-position: -32px 0;
-}
-
-.instagram {
-    background-position: -48px 0;
-}
-
+/*
 .rss {
-    background-position: -64px 0;
+  background-position: -64px 0;
 }
-
-#footer-logo {
-    float: right;
-    margin-top: 20px;
-    font-size: 10px;
-    text-align: right;
-}
+*/
 
 /* block-1 */
 #block-1 {
-    background: #F6F2F2;
+    background: #f6f2f2;
     margin: 0px 0;
     padding-left: 0px;
     height: 500px;
@@ -357,7 +229,7 @@ footer p {
 
 .block-1-left p {
     color: black;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-size: 56px;
     font-weight: 1000;
 }
@@ -369,7 +241,7 @@ a.button-1 {
     padding: 12px;
     border-radius: 3px;
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-size: 14px;
     line-height: 1;
     font-weight: 300;
@@ -412,23 +284,47 @@ a.button-1 {
     background: white;
     margin: 0px 0;
     padding-left: 0px;
-    height: 588px;
+    width: 1251px;
+    height: 488px;
+}
+
+#block-2 h2 {
+    font-size: 48;
+    font-weight: 1000;
+}
+
+#block-2 h4 {
+    font-size: 12;
+    font-weight: 100;
 }
 
 a.button-2 {
+    position: absolute;
     display: inline-block;
     background: white;
     color: rgb(253, 6, 6);
     padding: 12px;
     border-radius: 3px;
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 300;
     line-height: 1;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 180px;
     border: 2px solid red;
+}
+
+.block-2-left {
+    position: absolute;
+    height: 356px;
+    margin-top: 5px;
+    display: inline-block;
+    color: #000;
+    text-align: left;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 3500;
 }
 
 .block-2-right {
@@ -445,40 +341,267 @@ a.button-2 {
 
 #management {
     position: absolute;
-    width: 184px;
-    height: 24px;
+    width: 230px;
+    height: 160px;
     top: 221;
     left: 650px;
     display: inline-block;
-    background: #fa020f;
+    background: white;
+    margin-top: 10px;
+    margin-left: -10px;
 }
 
 #branding {
     position: absolute;
-    width: 215px;
-    height: 25px;
+    width: 230px;
+    height: 160px;
     top: 365;
     left: 1105px;
     display: inline-block;
-    background: pink;
+    background: white;
+    margin-top: 180px;
+    margin-left: -465px;
 }
 
 #design {
     position: absolute;
-    width: 168px;
-    height: 24px;
+    width: 230px;
+    height: 160px;
     top: 221;
     left: 864px;
     display: inline-block;
-    background: #fa020f;
+    background: white;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
 #animation {
     position: absolute;
-    width: 137px;
-    height: 19px;
+    width: 230px;
+    height: 160px;
     top: 365;
     left: 1105px;
     display: inline-block;
-    background: pink;
+    background: white;
+    margin-top: 180px;
+    margin-left: -200px;
+}
+
+.block-2-right_line {
+    position: absolute;
+    width: 1130px;
+    border: none;
+    margin-top: 430px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.block-2-right_line_line hr {
+    color: #c7c7c7;
+}
+
+/* block-3 */
+#block-3 {
+    position: relative;
+    background: white;
+    margin: 0px 0;
+    padding-left: 0px;
+    width: 1251px;
+    height: 788px;
+}
+
+.block-3-center {
+    margin: 0px auto;
+    padding-left: 0px;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    color: black;
+}
+
+.feature-2 {
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: -410px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: black;
+    /*overflow: auto;*/
+}
+
+.tile-1 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -100px;
+    right: 76%;
+    bottom: 0;
+    left: 10;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-2 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -100px;
+    right: 55%;
+    bottom: 0;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-3 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -100px;
+    right: 34%;
+    bottom: 0;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-4 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: -100px;
+    right: 13%;
+    bottom: 0px;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-5 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 430px;
+    right: 13%;
+    bottom: 0;
+    left: 10;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-6 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 430px;
+    right: 34%;
+    bottom: 0;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-7 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 430px;
+    right: 55%;
+    bottom: 0;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+.tile-8 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 430px;
+    right: 76%;
+    bottom: 0px;
+    left: 161;
+    margin: auto;
+    overflow: auto;
+    background-color: #5281ff;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: #dbdbdb;
+    font-size: 11px;
+}
+
+#footer {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px 0;
+    height: 90px;
+}
+
+.copy-1 {
+    background-position: 0 0;
+}
+
+#social {
+    float: right;
+    margin-left: 20px;
+    width: 280px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.facebook {
+    background-position: -30px 0;
+}
+
+.google-plus {
+    background-position: -60px 0;
+}
+
+footer h3 {
+    color: #fff;
+    border-bottom: 1px solid #919191;
+    margin: 0 0 10px 0;
+}
+
+footer a {
+    color: #dbdbdb;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#linkedin {
+    padding-right: 30px;
+}
+
+/* Иконки */
+.icon-style {
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+    float: right;
+    background: #f6f2f2;
+}
+
+.icon-style:hover {
+    background-color: rgb(233, 233, 229);
 }
