@@ -270,13 +270,13 @@ a.button-1 {
 }
 
 #square-2 {
-    position: absolute;
-    width: 70px;
-    height: 69px;
-    top: 365;
-    left: 1105px;
-    display: inline-block;
-    background: pink;
+	position: absolute;
+	width: 70px;
+	height: 69px;
+	top: 254px;
+	left: 1101px;
+	display: inline-block;
+	background: pink;
 }
 
 /* block-2 */
